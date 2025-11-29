@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Предпросмотр контента</title>
+  <link rel="stylesheet" href="preview.css">
+</head>
+<body>
+  <div class="preview-container">
+    <header class="preview-header">
+      <h1>Предпросмотр контента</h1>
+      <div class="controls">
+        <button id="exportBtn">Экспорт в CSV</button>
+        <button id="closeBtn">Закрыть</button>
+      </div>
+    </header>
+    
+    <main class="preview-content">
+      <article id="contentArticle">
+        <h1 id="contentTitle">Загрузка...</h1>
+        <div id="contentBody"></div>
+      </article>
+    </main>
+  </div>
+  
+  <script src="preview.js"></script>
+</body>
+</html>
